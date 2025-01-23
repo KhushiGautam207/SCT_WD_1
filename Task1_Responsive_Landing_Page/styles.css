@@ -1,0 +1,83 @@
+/* Global styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+label.logo
+{
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 20px;
+    font-weight: bold;
+}
+/* Fixed Navigation Menu */
+.fixed-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 80px;
+    width: 100%;
+    background-color: #130984;
+    display: flex;
+    justify-content: space-between; /* Align items to left and right */
+    align-items: center; /* Vertically center items */
+    padding: 0 20px; /* Optional: Add padding for spacing */
+    z-index: 1000;
+}
+
+.fixed-nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end; /* Align the list items to the right */
+    margin: 0;
+    
+    
+}
+
+.fixed-nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+
+}
+
+.fixed-nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 15px;
+    display: block; 
+}
+
+.fixed-nav ul li a:hover {
+    background-color: #575757;
+    text-transform: uppercase;
+    font-style: oblique;
+
+}
+
+/* Content Section */
+.content {
+    padding-top: 0px; /* Adjust to prevent overlap with fixed navbar */
+}
+
+section {
+    padding: 90px 20px;
+    height: 100vh;
+}
+
+h1 {
+
+    font-size: 2em;
+    margin-bottom: 20px;
+    
+}
+
+p {
+    font-size: 1.2em;
+}
