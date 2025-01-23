@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project is a responsive landing page application that features an interactive navigation menu. The navigation menu is designed to change its color or style when scrolling or hovering over menu items. Additionally, the navigation menu has a fixed position, meaning it will remain visible on all pages of the application.
+I have recently completed my Task 1 Responsive Landing Page Application from SkillCraft Technology. This project is a responsive landing page application that features an interactive navigation menu. The navigation menu is designed to change its color or style when scrolling or hovering over menu items. Additionally, the navigation menu has a fixed position, meaning it will remain visible on all pages of the application.
 
 ### Features
 
